@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_donwload_rl"
+    android:layout_width="50dp"
+    android:layout_height="wrap_content" >
+
+
+    <RelativeLayout
+        android:id="@+id/donwloa_view_rl"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true">
+
+        <com.felink.corelib.widget.CirclePercentView
+            android:id="@+id/dl_progress"
+            app:ringColor="@color/download_red"
+            app:ringProgressColor="@android:color/white"
+            app:ringWidth="2dp"
+            app:textSize="10sp"
+            app:textColor="#ffffff"
+            android:layout_centerInParent="true"
+            android:layout_width="39dp"
+            android:layout_height="39dp" />
+
+        <ImageView
+            android:id="@+id/view_download_state_iv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/view_video_down_hd"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/dl_handle"
+        android:layout_below="@id/donwloa_view_rl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        style="@style/VideoPaper.Toobar.TextAppearance.Shadow"
+        android:background="@color/transparent"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/video_detail_download_high_quality"
+        android:textColor="@color/white"
+        android:textSize="12sp"  />
+
+</RelativeLayout>

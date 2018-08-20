@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00ffffff</color>
+
+    <drawable name="red">#7f00</drawable>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+    <drawable name="yellow">#77ffff00</drawable>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <drawable name="transparent_background">#00000000</drawable>
+
+    <!-- 我的手机主内容文字颜色 -->
+    <color name="myphone_item_text_color">#000000</color>
+
+    <!-- 浅色背景下标题颜色 -->
+    <color name="myphone_common_title_color">#7a7a7a</color>
+    <!-- 蓝色背景下标题颜色 -->
+    <color name="myphone_common_title_color1">@color/title_main_color_light</color>
+    <!-- 统一背景色 -->
+    <color name="myphone_common_bg_color">#eef1f6</color>
+    <!-- 内容颜色 -->
+    <color name="myphone_common_text_color">#303030</color>
+    <!-- 说明文字颜色与ViewPagerTab未选中颜色 -->
+    <color name="myphone_common_little_text_color">#8f8f8f</color>
+    <!-- ViewPagerTab选中颜色 -->
+    <color name="myphone_common_dialog_text_color">#1e82dc</color><!-- 5eb9f2 -->
+
+    <drawable name="myphone_bg_color">#f9fafb</drawable>
+    <drawable name="white">#FFFFFFFF</drawable>
+
+    <!-- searchbox 弹出框标题字颜色 -->
+    <color name="searchbox_title_text_color">#32B5E5</color>
+
+	<!-- 我的手机底部蓝色背景时的字体颜色 -->
+	<color name="myphone_bottom_blue_bg_text_color">#cdf2ff</color>
+
+    <!-- 通知信息背景色 -->
+    <color name="notification_background_color">#555555</color>
+    <!-- 通知信息文字颜色 -->
+    <color name="notification_text_color">#d3d3d3</color>
+
+    <color name="common_text_color">#181818</color>
+    <color name="common_little_text_color">#999999</color>
+    <color name="common_title_little_text_color">#00bcd5</color>
+    <color name="common_btn_text_color">#FF5F5F5F</color>
+    <color name="common_remind_gray_bg">#ffeef1f6</color>
+    <color name="common_remind_orange">#fff78a41</color>
+
+    <!-- 通用头部文字颜色 -->
+    <color name="common_header_title_color">#404040</color>
+
+    <color name="common_btn_confirm_text_color">#ffffff</color>
+
+    <color name="common_dropdown_item_text_color">#4c00bcd5</color>
+
+    <color name="dialog_title_color">#1c1c1c</color>
+    <color name="dialog_content_color">#676b6e</color>
+
+    <drawable name="drawer_item_bg_color">#e1f4f6</drawable>
+
+
+    <!-- v7文字颜色 -->
+    <color name="title_main_color_light">#00bcd5</color>
+    <color name="title_main_color">#676b6e</color>
+    <color name="title_sub_color">#1c1c1c</color>
+    <color name="title_desc_color">#999999</color>
+    <color name="title_yellow_color">#ffc52d</color>
+    <color name="title_red_color">#de596a</color>
+    <color name="title_red_color_dark">#c92331</color>
+    <!-- v8设置页面分割线-->
+    <color name="v8_settings_color">#eef1f6</color>
+    <color name="v8_settings_launcher_default_color">#34414a</color>
+    <drawable name="v8_settings_list_select_bg">#f8fafa</drawable>
+</resources>

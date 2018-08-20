@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_publish_name">Dynamic</string>
+    <string name="plugin_activated">我要启用 </string>
+    <string name="plugin_update_launcher">升级APP </string>
+    <string name="hint_sdcard_unavailable_msg">SD卡不可用，SD卡程序无法加载</string>
+    <string name="plugin_transfer_desc1">初次启动，稍稍等待一会儿，\n无限奇趣立刻体验</string>
+    <string name="plugin_transfer_desc3">人家正在提升自我修养啦，别催别催，\n马上就好</string>
+    <string name="plugin_transfer_desc4">无法使用哦，【微视频壁纸】版本太低了，快快升级【微视频壁纸】吧</string>
+    <string name="plugin_transfer_error">安装或启动过程中出现问题, 请稍后重试. </string>
+    <string name="plugin_update_desc">人家最近做了些小优化，\n快更新了看我一眼吧！</string>
+    <string name="plugin_update_right_now">马上下载</string>
+    <string name="plugin_must_update_desc">又可以进行华丽丽的升级啦，\n更多惊喜等你发现哦。</string>
+    <string name="plugin_update_restart_tip">更新成功～但程序小哥说要体验新功能必须重启一次桌面哟，是否要启用呢？</string>
+    <string name="download_error_apk_title">提示</string>
+    <string name="plugin_update_skip">下次吧</string>
+    <string name="dyanmic_plugin_repair">插件损坏,正在修复</string>
+    <string name="dyanmic_plugin_repair_suc">插件修复成功</string>
+    <string name="dyanmic_plugin_repair_redownload">插件损坏,请重新下载</string>
+    <string name="dyanmic_plugin_err_coding_wrong">此插件未按照动态插件标准开发,不符合规范,无法加载!</string>
+    <string name="dyanmic_plugin_err_activity_not_found">无法找到Activity,请确认Intent信息!</string>
+    <string name="plugin_down_stop">暂停</string>
+    <string name="plugin_down_start">开始</string>
+    <string name="plugin_update_restart">启用新功能</string>
+    <string name="plugin_update_restart_tip2">啊哦～当前功能运行出了点小问题，程序小哥说通过重新下载就能搞定，要不要听他的呢？</string>
+    <string name="plugin_update_restart2">重新下载</string>
+    <string name="plugin_update_skip2">下次再说</string>
+
+    <!--通用的-->
+    <string name="common_tip">提示</string>
+    <string name="frame_viewfacotry_net_break_text">网络连接不成功,请检查网络是否已断开</string>
+    <string name="frame_viewfacotry_show_netsetting_err">打开网络设置失败</string>
+    <string name="download_error_apk_content">视频壁纸发现发现您下载的软件出现异常，继续安装可能导致安装失败！</string>
+    <string name="common_button_redownload">重新下载</string>
+    <string name="download_error_apk_btn_install">尝试安装</string>
+    <string name="common_button_confirm">确定</string>
+    <string name="common_button_cancel">取消</string>
+    <string name="download_notify_apk_upgrade_content">这个功能只有更新了才能正常使用哦，是否继续更新？</string>
+    <string name="download_notify_apk_upgrade_stop">暂不更新</string>
+    <string name="soft_update_setting_title">版本更新</string>
+    <string name="soft_update_checking">正在检查更新...</string>
+    <string name="frame_viewfacotry_net_break_btn">网络设置</string>
+    <string name="frame_viewfacotry_net_refresh_btn">&#160;&#160;刷&#160;&#160;&#160;&#160;新&#160;&#160;</string>
+
+</resources>

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "plugin": [
+    {
+      "pkg": "com.xxm.dynicpath",
+      "version": 1,
+      "type": 1,
+      "targetVersion": 1,
+      "downloadfile": ""
+    }
+  ]
+}

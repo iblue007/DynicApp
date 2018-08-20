@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/framework_viewfactory_err_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/frame_viewfacotry_net_break_img" />
+
+    <TextView
+        android:id="@+id/framework_viewfactory_err_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+        android:gravity="center"
+        android:text="@string/frame_viewfacotry_net_break_text"
+        android:textColor="#8d8d8d"
+        android:textSize="14.7dip" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/framework_viewfactory_err_btn"
+            android:layout_width="100dip"
+            android:layout_height="37dip"
+        	android:textSize="14sp"
+            android:background="@drawable/app_choose_r_btn_ex"
+            android:gravity="center"
+            android:text="@string/frame_viewfacotry_net_break_btn"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="37dip"
+        	android:textSize="14sp"
+            android:background="@drawable/app_choose_r_btn_ex"
+            android:text="@string/frame_viewfacotry_net_break_btn"
+            android:textColor="#ffffff"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/framework_viewfactory_refresh_btn"
+            android:layout_width="100dip"
+            android:layout_height="37dip"
+        	android:textSize="14sp"
+            android:background="@drawable/app_choose_r_btn_ex"
+            android:gravity="center"
+            android:text="@string/frame_viewfacotry_net_refresh_btn"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>

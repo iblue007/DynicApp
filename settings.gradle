@@ -1,0 +1,1 @@
+include ':app',':lib-dynamic',":lib-core",":lib-exoplayer-core"

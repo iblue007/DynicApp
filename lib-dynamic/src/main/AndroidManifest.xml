@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nd.hilauncherdev.dynamic">
+
+    <application
+        android:allowBackup="true">
+        <activity
+            android:name=".PluginLoaderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity
+            android:name=".PluginLoaderActivityForDialog"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".PluginLoaderListActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".PluginLoaderTabActivity"></activity>
+        android:screenOrientation="portrait"
+        <activity
+            android:name=".PluginLoaderActivityGroup"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

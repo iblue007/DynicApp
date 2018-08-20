@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">微视频壁纸</string>
+    <string name="app_name_en">Video Wallpaper</string>
+
+    <string name="common_checkbox_not_alert">不再提醒</string>
+
+    <string name="dockbar_null_intent">数据错误！</string>
+    <string name="activity_not_found" msgid="3571057450431950427">手机上未安装程序</string>
+
+    <!--异常处理-->
+    <string name="frame_viewfactory_err_content_text">亲，动手指把问题反馈给我们，让%1$s变得更好用吧</string>
+    <string name="frame_viewfactory_err_title">啊哦！ %1$s运行出了点小问题</string>
+    <string name="frame_viewfactory_tell_us">发送反馈</string>
+    <string name="frame_viewfactory_cancle">取消操作</string>
+    <string name="activity_null_intent">数据异常</string>
+    <!--异常处理-->
+
+    <string name="net_break_text">数据加载失败，请检查网络设置</string>
+    <string name="net_break_tip">没有网络，请检查网络设置</string>
+
+    <string name="string_apply_paper_suc_title">壁纸应用成功!</string>
+    <string name="string_apply_paper_suc_msg">自动切换视频壁纸已开启！</string>
+
+    <string name="video_launcher_next_tips">已为你自动更换视频壁纸</string>
+    <string name="video_launcher_next_unlike">不感兴趣，换一个</string>
+
+    <!--v2.2-->
+    <string name="stars_dialog_effect_methods">1.下载爱豆的主题\n2.下载爱豆壁纸\n3.分享爱豆的主题/壁纸/到微博/朋友圈\n4.更多增加影响力的方式敬请期待</string>
+    <string name="stars_dialog_effect_methods_tip">你还可以通过以下操作，为偶像贡献更多影响力哦！</string>
+    <string name="stars_dialog_has_up">已经帮TA冲过榜啦！</string>
+    <string name="stars_dialog_i_know">我知道了</string>
+
+    <string name="video_wallpaper_no_use" >暂不使用</string>
+    <string name="video_wallpaper_reuse" >恢复使用</string>
+    <!--v2.3.1-->
+    <string name="video_detail_circle_play_dialog_title" >已经开启了循环视频壁纸，将当前视频加入循环列表中吗</string>
+    <string name="video_detail_circle_play_dialog_wallpaper" >仅设置本视频</string>
+    <string name="video_detail_circle_play_dialog_putin" >好的</string>
+    <string name="video_detail_circle_play_dialog_not" >不</string>
+    <string name="video_detail_download_tip">当前处于非wifi环境，继续下载高清视频壁纸吗?本视频%1$s</string>
+    <string name="video_detail_download_high_quality" >下载高清</string>
+    <string name="video_detail_continue_download_high_quality" >继续下载</string>
+    <string name="video_detail_downloading" >下载中</string>
+    <string name="video_detail_download_set_wallpaper" >设为桌面</string>
+    <string name="video_detail_commont" >评论</string>
+    <string name="video_detail_like" >喜欢</string>
+    <string name="video_detail_share" >转发</string>
+    <string name="video_detail_data_show" formatted="false">浏览:%s时长:%s大小:%s声音:%s</string>
+
+    <string name="activity_my_down_notice_HD_title" >订阅功能已升级为下载高清视频啦，进入我的下载列表或视频详情页下载喜欢的高清视频吧</string>
+    <string name="activity_my_down_notice_HD_submit" >我知道了</string>
+    <string name="video_detail_circle_play_dialog_title2" >确定关闭视频循环吗?</string>
+    <string name="video_detail_circle_play_dialog_tip" >关闭循环后，将恢复单个视频壁纸。</string>
+    <string name="video_detail_circle_play_dialog_submit">确定</string>
+    <string name="video_detail_circle_play_dialog_cancle" >取消</string>
+
+    <string name="download_delete_title">提示</string>
+    <string name="download_not_wifi_alert">当前未开启wifi，是否继续下载？</string>
+    <string name="settings_home_apps_copytext_towx">已经复制到剪贴板，可直接粘贴</string>
+    <string name="frame_viewfacotry_download_null">没有搜索到你的下载记录</string>
+    <string name="frame_viewfacotry_show_netsetting_err">打开网络设置失败</string>
+    <string name="frame_viewfacotry_net_break_text">网络连接不成功,请检查网络是否已断开</string>
+    <string name="frame_viewfacotry_net_slowly_reflesh_btn">刷新</string>
+    <string name="common_button_confirm">确定</string>
+    <string name="common_button_cancel">取消</string>
+    <string name="frame_viewfacotry_net_break_btn">网络设置</string>
+    <string name="frame_viewfacotry_net_slowly_text">网络不给力,先休息下,稍后再试</string>
+    <string name="frame_viewfacotry_search_null">没有搜索到相关内容,请试试别的吧</string>
+    <string name="frame_viewfacotry_err_info_text">出错啦!</string>
+    <string name="frame_viewfacotry_data_load_text">正在很努力地很努力地加载中</string>
+
+    <string name="download_ad_action_downing">正在下载中</string>
+    <string name="download_ad_action_beging">开始下载:</string>
+
+
+
+</resources>

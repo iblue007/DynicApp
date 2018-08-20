@@ -1,0 +1,233 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myphone_common_bg_color" >
+
+    <com.nd.hilauncherdev.framework.view.NetErrorAndSettingView
+        android:id="@+id/neterror_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/plugin_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <com.nd.hilauncherdev.dynamic.Transfer.PluginDownloadAnim
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:id = "@+id/plugin_download_anim">
+        </com.nd.hilauncherdev.dynamic.Transfer.PluginDownloadAnim>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true">
+                <TextView
+                    android:id="@+id/progressBar_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#A2A2A2"
+                    android:textSize="13sp"
+                    android:layout_marginTop="10dp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/processSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text=" (0B/0B)"
+            android:textColor="#A2A2A2"
+            android:textSize="11sp"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@null"
+            android:enabled="false"
+            android:gravity="center"
+            android:lines="2"
+            android:maxLines="2"
+            android:paddingTop="10dip"
+            android:textColor="#676b6e"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_update_launcher"
+            android:layout_width="180dp"
+            android:layout_height="45dip"
+            android:background="@drawable/launcher_popup_btn_selector"
+            android:text="@string/plugin_update_launcher"
+            android:textColor="@color/plugin_loader_btn_color_selector"
+            android:textSize="@dimen/myphone_tv_btn_text_size"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="180dp"
+            android:layout_height="45dip"
+            android:background="@drawable/launcher_popup_btn_selector"
+            android:text="@string/plugin_activated"
+            android:textColor="@color/plugin_loader_btn_color_selector"
+            android:textSize="@dimen/myphone_tv_btn_text_size"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/plugin_down_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:layout_marginRight="50dip"
+            android:layout_marginTop="20dip" >
+
+            <RelativeLayout
+                android:id="@+id/progressly"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" >
+
+                <com.nd.hilauncherdev.framework.view.PercentBarView
+                    android:id="@+id/progressBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="12dp"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/progressly"
+                android:layout_marginTop="10dip"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/start_pause_ly"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="10dip"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/start_pause_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/plugin_qiyong_btn_pause" />
+
+                    <TextView
+                        android:id="@+id/start_pause_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:paddingTop="5dip"
+                        android:visibility="gone"
+                        android:text="@string/plugin_update_right_now"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/clear_ly"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="10dip"
+                    android:layout_toRightOf="@+id/start_pause_ly"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:id="@+id/clear_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/plugin_qiyong_btn_clear" />
+
+                    <TextView
+                        android:id="@+id/clear_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:paddingTop="5dip"
+                        android:visibility="gone"
+                        android:text="@string/plugin_update_skip" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/plugin_update_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dip"
+            android:layout_marginRight="50dip"
+            android:layout_marginTop="20dip"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/plugin_update_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:gravity="center"
+                android:lines="2"
+                android:maxLines="2"
+                android:text="@string/plugin_update_desc"
+                android:textColor="#636363"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/pet_update_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/plugin_update_desc"
+                android:layout_marginBottom="20dip"
+                android:padding="10dip" >
+
+                <TextView
+                    android:id="@+id/pet_update_down"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dip"
+                    android:drawableTop="@drawable/plugin_qiyong_btn_down"
+                    android:gravity="center_horizontal"
+                    android:textColor="#948df0" />
+
+                <TextView
+                    android:id="@+id/pet_update_skip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="20dip"
+                    android:layout_weight="1"
+                    android:drawablePadding="5dip"
+                    android:drawableTop="@drawable/plugin_qiyong_btn_clear"
+                    android:gravity="center_horizontal"
+                    android:textColor="#948df0" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

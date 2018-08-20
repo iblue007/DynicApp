@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingTop="25dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/top_panel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:id="@+id/top_pannel_back"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:src="@drawable/folder_clear_name_selector" />
+        <TextView 
+            android:id="@+id/top_panel_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/common_header_title_color"
+            android:singleLine="true"
+			android:ellipsize="end"
+			android:paddingLeft="12dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wait_layout"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:orientation="horizontal"
+        android:background="@android:color/white" >
+
+        <ProgressBar
+            android:id="@+id/browser_web_progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/webview_progressbar_progress_horizontal1" />
+    </LinearLayout>
+
+    <RelativeLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0" >
+        <WebView
+	        android:id="@+id/ad_webview"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent" />
+        <!-- 无网络展示界面 -->
+        <LinearLayout
+            android:id="@+id/advert_sdk_browser_nonetwork"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:visibility="gone" />
+    </RelativeLayout>
+	
+    <!-- 操纵按钮 -->
+    <LinearLayout
+        android:id="@+id/advert_sdk_browser_operate_bar"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:background="#ffeeeeee"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <!-- 后退 -->
+        <LinearLayout
+            android:id="@+id/advert_sdk_browser_retreat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/advert_sdk_browser_retreat_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webview_left_button" />
+        </LinearLayout>
+        <!-- 前进 -->
+        <LinearLayout
+            android:id="@+id/advert_sdk_browser_advance"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/advert_sdk_browser_advance_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webview_right_button_unclick" />
+        </LinearLayout>
+        <!-- Home按钮 -->
+        <LinearLayout
+            android:id="@+id/advert_sdk_browser_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/advert_sdk_browser_home_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webview_back_button" />
+        </LinearLayout>
+        <!-- 浏览器按钮 -->
+        <LinearLayout
+            android:id="@+id/advert_sdk_browser_open_browser"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/advert_sdk_browser_open_browser_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/webview_browser_button" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
