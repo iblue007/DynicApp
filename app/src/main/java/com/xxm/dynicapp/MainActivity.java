@@ -12,8 +12,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.felink.corelib.config.BaseConfig;
-import com.felink.corelib.kitset.FileUtil;
 import com.xxm.dynicapp.floatt.FloatWindowService;
 import com.xxm.dynicapp.hook.HookActivity;
 
@@ -38,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
 //        if(file.exists()){
 //            Log.e("======","======file_exits");
 //        }
-        FileUtil.copyFolder("/data/data/com.xxm.dynicapp/", BaseConfig.WIFI_DOWNLOAD_PATH+"test");
-        FileUtil.copy("/data/data/com.xxm.dynicapp/", BaseConfig.WIFI_DOWNLOAD_PATH+"test");
+//        FileUtil.copyFolder("/data/data/com.xxm.dynicapp/", BaseConfig.WIFI_DOWNLOAD_PATH+"test");
+//        FileUtil.copy("/data/data/com.xxm.dynicapp/", BaseConfig.WIFI_DOWNLOAD_PATH+"test");
 
         hookTv.setOnClickListener(new View.OnClickListener() {
             @Override

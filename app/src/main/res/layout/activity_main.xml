@@ -39,6 +39,7 @@
         android:layout_height="50dp"
         android:background="#ccc"
         android:gravity="center"
+        android:visibility="gone"
         android:text=" 模拟按键精灵点击" />
 
 </LinearLayout>
